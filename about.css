@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans";
+    display: flexbox;
+}
+
+#icon {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.hamburger, .menu, .menu ul {
+    background-color: #9BE5B4;
+    margin: 0px;
+    opacity: 0;
+    height: 0px;
+}
+
+.navbar {
+    background-color: #9BE5B4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin-right: auto;
+    margin-left: 20px;
+    color: white;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav li {
+    display: inline;
+    align-self: flex-end;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+nav li a {
+    color: white;
+}
+
+nav li a:hover{
+    color: #4080FC;
+}
+
+button {
+    background-color: #4080FC;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.try button {
+  background-color: #9BE5B4;
+  padding: 15px 50px;
+}
+
+.main_landing {
+    color: white;
+    background-color: #9BE5B4;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 180px;
+}
+
+.main_landing h1 {
+  font-size: 35px;
+}
+
+h1 {
+  font-family: "Baloo";
+}
+
+.main_words {
+    padding-right: 60px;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.partners img {
+    padding: 20px;
+}
+
+.brands {
+    color: white;
+    background-color: black;
+    padding: 160px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    color: white;
+    background-color: #f49207;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 160px;
+    text-align: center;
+}
+
+.collaborate {
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+.collaborate h3 {
+  font-family: "Baloo";
+}
+
+.collaborate_words {
+  color: #9BE5B4;
+}
+
+.collaborate_pics .coffee {
+    width: 300px;
+    padding: 60px;
+}
+
+.collaborate_pics .train {
+    width: 300px;
+    padding: 60px;
+}
+
+.collaborate_pics .camera {
+    width: 300px;
+    padding: 60px;
+}
+
+.collaborate_pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.increase {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.increase_words {
+    text-align: center;
+    padding: 80px;
+    font-size: 20px;
+}
+
+.art {
+    width: 300px;
+    padding: 80px;
+}
+
+.leaves {
+    width: 300px;
+    padding: 80px;
+}
+
+.night {
+    width: 300px;
+    padding: 80px;
+}
+
+.tree {
+    width: 300px;
+    padding: 80px;
+}
+
+.increase_pics {
+    display: flex;
+    flex-direction: row;
+}
+
+.increase_pics2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.build {
+    background-color: #4080FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.build_words {
+    text-align: center;
+    padding: 60px;
+}
+
+.build_pics {
+    display: flex;
+    flex-direction: row;
+}
+
+.typewriter {
+    width: 300px;
+    padding: 60px;
+}
+
+.lifeguard {
+    width: 300px;
+    padding: 60px;
+}
+
+.lens {
+    width: 300px;
+    padding: 60px;
+}
+
+.yeehaw {
+    background-color: white;
+    color: black;
+    padding: 160px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.yeehaw h1 {
+  color: #9BE5B4;
+}
+
+.yeehaw button {
+  margin: 40px;
+}
+
+.try{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+    color: white;
+    background-color: #4080FC;
+}
+
+input {
+    width: 300px;
+    height: 60px;
+    margin: 5px;
+}
+
+.try input {
+  width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #4080FC;
+  color: white;
+  font-size: 20px;
+  border-color: white;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.submit{
+    background-color: #f4aa42;
+    color: white;
+    padding: 15px 82px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #f49207;
+}
+
+.footer_columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.footer_columns h2 {
+    font-size: 30px;
+}
+
+.footer a{
+    color: black;
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar {
+        display: none;
+    }
+    .main_landing img{
+        display: none;
+    }
+    .collaborate_pics {
+        flex-direction: column;
+    }
+    .increase_pics {
+        flex-direction: column;
+    }
+    .increase_pics2 {
+        flex-direction: column;
+    }
+    .build_pics {
+        flex-direction: column;
+    }
+    .footer{
+        display: none;
+    }
+
+    .partners {
+        flex-direction: column;
+    }
+
+    .hamburger{
+        background-color: black;
+        color: white;
+        opacity: 100;
+        height: 10px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .hamburger input {
+        opacity: 0;
+        height: 0px;
+    }
+
+
+    input[type=checkbox]:checked ~ div {
+        height: 50px;
+        background-color: red;
+        color: white;
+    }
+}
