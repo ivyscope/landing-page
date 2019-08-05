@@ -26,7 +26,7 @@ a {
 }
 
 .navbar {
-    background-color: #9BE5B4;
+    background-color: #4080FC;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -55,11 +55,11 @@ nav li a {
 }
 
 nav li a:hover{
-    color: #4080FC;
+    color: #9BE5B4;
 }
 
 button {
-    background-color: #4080FC;
+    background-color: #9BE5B4;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -80,7 +80,7 @@ button:hover {
 
 .main_landing {
     color: white;
-    background-color: #9BE5B4;
+    background-color: #4080FC;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -147,7 +147,7 @@ h1 {
 }
 
 .collaborate_words {
-  color: #9BE5B4;
+  color: #4080FC;
 }
 
 .collaborate_pics .coffee {
@@ -252,19 +252,22 @@ h1 {
 }
 
 .yeehaw {
-    background-color: white;
-    color: black;
+    background-color: #9BE5B4;
+    color: white;
     padding: 160px;
     text-align: center;
     font-size: 20px;
 }
 
 .yeehaw h1 {
-  color: #9BE5B4;
+  color: white;
 }
 
 .yeehaw button {
   margin: 40px;
+  background-color: white;
+  color: #9BE5B4;
+  padding: 20px 32px;
 }
 
 .try{
