@@ -5,10 +5,6 @@ body {
     display: flexbox;
 }
 
-#icon {
-    color: #fff;
-}
-
 ul {
     list-style-type: none;
 }
@@ -39,6 +35,14 @@ a {
     color: white;
 }
 
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #4080FC;
+}
+
 nav {
     align-self: flex-end;
 }
@@ -56,6 +60,9 @@ nav li a {
 
 nav li a:hover{
     color: #4080FC;
+    font-size: 20px;
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
 }
 
 button {
@@ -84,7 +91,12 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 180px;
+    padding: 70px 40px 60px 0px;
+}
+
+.main_landing img {
+  width: 900px;
+  height: auto;
 }
 
 .main_landing h1 {
@@ -96,39 +108,17 @@ h1 {
 }
 
 .main_words {
-    padding-right: 60px;
+    padding-left: 40px;
+    width: 400px;
 }
 
-.partners {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.main_words p {
+  font-size: 18px;
 }
 
-.partners img {
-    padding: 20px;
-}
-
-.brands {
-    color: white;
-    background-color: black;
-    padding: 160px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.quote {
-    color: white;
-    background-color: #f49207;
-    display: flex;
-    font-size: 22px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 160px;
-    text-align: center;
+.main_line {
+  border-left: 6px solid white;
+  height: 600px;
 }
 
 .collaborate {
@@ -152,17 +142,25 @@ h1 {
 
 .collaborate_pics .coffee {
     width: 300px;
-    padding: 60px;
+    padding: 40px;
+}
+
+.coffee img, .train img, .camera img {
+  width: 300px;
+}
+
+.camera img {
+  padding-top: 33px;
 }
 
 .collaborate_pics .train {
     width: 300px;
-    padding: 60px;
+    padding: 40px;
 }
 
 .collaborate_pics .camera {
     width: 300px;
-    padding: 60px;
+    padding: 40px;
 }
 
 .collaborate_pics {
@@ -170,158 +168,65 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-}
-
-.increase {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.increase_words {
-    text-align: center;
-    padding: 80px;
-    font-size: 20px;
-}
-
-.art {
-    width: 300px;
-    padding: 80px;
-}
-
-.leaves {
-    width: 300px;
-    padding: 80px;
-}
-
-.night {
-    width: 300px;
-    padding: 80px;
-}
-
-.tree {
-    width: 300px;
-    padding: 80px;
-}
-
-.increase_pics {
-    display: flex;
-    flex-direction: row;
-}
-
-.increase_pics2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.build {
-    background-color: #4080FC;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.build_words {
-    text-align: center;
-    padding: 60px;
-}
-
-.build_pics {
-    display: flex;
-    flex-direction: row;
-}
-
-.typewriter {
-    width: 300px;
-    padding: 60px;
-}
-
-.lifeguard {
-    width: 300px;
-    padding: 60px;
-}
-
-.lens {
-    width: 300px;
-    padding: 60px;
+    padding: 40px 0px 40px 0px;
 }
 
 .yeehaw {
-    background-color: white;
-    color: black;
+    background-color: #9BE5B4;
+    color: white;
     padding: 160px;
     text-align: center;
     font-size: 20px;
 }
 
 .yeehaw h1 {
-  color: #9BE5B4;
+  color: white;
 }
 
 .yeehaw button {
   margin: 40px;
+  background-color: white;
+  color: #9BE5B4;
+  padding: 20px 32px;
 }
 
-.try{
+.try {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    padding: 200px;
+    flex-direction: row;
+    padding: 150px;
     color: white;
     background-color: #4080FC;
+    font-size: 20px;
+}
+
+.try_line {
+  border-left: 6px solid white;
+  height: 400px;
+}
+
+.try_left {
+  text-align: center;
+  width: 400px;
+}
+
+.try_right a {
+  color: white;
+}
+
+.try_right a:hover {
+  color: #9BE5B4;
+}
+
+.try_right p {
+  font-weight: bold;
 }
 
 input {
     width: 300px;
     height: 60px;
     margin: 5px;
-}
-
-.try input {
-  width: 400px;
-  height: 40px;
-  border-radius: 6px;
-  background-color: #4080FC;
-  color: white;
-  font-size: 20px;
-  border-color: white;
-  margin: 30px;
-  margin-bottom: 50px;
-}
-
-.submit{
-    background-color: #f4aa42;
-    color: white;
-    padding: 15px 82px;
-    text-align: center;
-    font-size: 16px;
-    border: none;
-}
-
-.submit:hover {
-    background-color: #f49207;
-}
-
-.footer_columns {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.footer_columns h2 {
-    font-size: 30px;
-}
-
-.footer a{
-    color: black;
 }
 
 @media only screen and (max-width: 640px) {
@@ -334,23 +239,6 @@ input {
     .collaborate_pics {
         flex-direction: column;
     }
-    .increase_pics {
-        flex-direction: column;
-    }
-    .increase_pics2 {
-        flex-direction: column;
-    }
-    .build_pics {
-        flex-direction: column;
-    }
-    .footer{
-        display: none;
-    }
-
-    .partners {
-        flex-direction: column;
-    }
-
     .hamburger{
         background-color: black;
         color: white;
@@ -359,13 +247,10 @@ input {
         font-size: 20px;
         padding: 10px;
     }
-
     .hamburger input {
         opacity: 0;
         height: 0px;
     }
-
-
     input[type=checkbox]:checked ~ div {
         height: 50px;
         background-color: red;
