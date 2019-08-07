@@ -224,7 +224,7 @@ input {
     margin: 5px;
 }
 
-.main_words h1, .main_words p, .collaborate_pics, .yeehaw button, .try button {
+.main_words p, .collaborate_pics, .yeehaw button, .try button {
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */
         -ms-animation: fadein 5s; /* Internet Explorer */
