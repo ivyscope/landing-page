@@ -229,7 +229,7 @@ input {
     margin: 5px;
 }
 
-.main_words, .collaborate_pics, .try_left, .try_right {
+.main_words, .try_left, .try_right {
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */
         -ms-animation: fadein 5s; /* Internet Explorer */
