@@ -88,7 +88,7 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 40px 180px 180px 180px;
+    padding: 40px 100px 160px 100px;
     margin-top: 0;
 }
 
@@ -101,7 +101,8 @@ h1 {
 }
 
 .main_words {
-    padding-right: 60px;
+    padding-right: 80px;
+    width: 1000px;
 }
 
 .main_words p {
@@ -111,6 +112,11 @@ h1 {
 
 .main_words button {
   margin-top: 20px;
+}
+
+.main_picture img {
+  width: 600px;
+  height: auto;
 }
 
 .collaborate {
