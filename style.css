@@ -246,6 +246,10 @@ h1 {
   transition-duration: 0.3s;
 }
 
+.yeehaw p {
+  margin: 0;
+}
+
 .main_words button, .yeehaw button, .try button {
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */

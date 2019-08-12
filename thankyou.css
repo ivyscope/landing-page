@@ -99,7 +99,7 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 40px 250px 35px 250px;
+    padding: 40px 200px 35px 200px;
     margin-top: 0;
     text-align: center;
 }
@@ -107,6 +107,10 @@ button:hover {
 .main_words {
   font-size: 20px;
   margin-bottom: 40px;
+}
+
+.main_words p {
+  margin: 0;
 }
 
 .main_landing h1 {

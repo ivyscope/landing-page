@@ -212,6 +212,10 @@ h1 {
     padding: 40px 0px 40px 0px;
 }
 
+.collaborate_pics p {
+  text-align: left;
+}
+
 .yeehaw {
     background-color: #9BE5B4;
     color: white;
@@ -250,6 +254,10 @@ h1 {
 .try_left {
   text-align: center;
   width: 400px;
+}
+
+.try_left p {
+  margin: 0;
 }
 
 .try_right a {
