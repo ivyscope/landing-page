@@ -27,7 +27,15 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 150px;
 }
+
+.navbar button {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  position: fixed;
+  margin-left: auto;
+  top: 40px;
+  right: 30px;}
 
 .navbar h1 {
     margin-right: auto;
@@ -177,8 +185,36 @@ h1 {
     padding: 40px 0px 40px 0px;
 }
 
-.yeehaw {
+.try {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+    color: white;
     background-color: #4080FC;
+    font-size: 20px;
+}
+
+.try button {
+  background-color: white;
+  padding: 20px 50px;
+  margin: 30px;
+  color: #4080FC;
+}
+
+.try button:hover {
+  background-color: #9BE5B4;
+  color: white;
+}
+
+.try_buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.yeehaw {
+    background-color: #9BE5B4;
     color: white;
     padding: 160px;
     text-align: center;
@@ -191,43 +227,15 @@ h1 {
 
 .yeehaw button {
   margin: 40px;
-  background-color: white;
-  color: #4080FC;
+  background-color: #4080FC;
+  color: white;
   padding: 20px 32px;
 }
 
 .yeehaw button:hover {
-  background-color: #9BE5B4;
-  color: white;
+  background-color: white;
+  color: #4080FC;
   transition-duration: 0.3s;
-}
-
-.try {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 200px;
-    color: white;
-    background-color: #9BE5B4;
-    font-size: 20px;
-}
-
-.try button {
-  background-color: #4080FC;
-  padding: 20px 50px;
-  margin: 30px;
-}
-
-.try_buttons {
-  display: flex;
-  flex-direction: row;
-}
-
-input {
-    width: 300px;
-    height: 60px;
-    margin: 5px;
 }
 
 .main_words button, .yeehaw button, .try button {

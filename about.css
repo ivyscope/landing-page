@@ -27,6 +27,15 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 150px;
+}
+
+.navbar button {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  position: fixed;
+  margin-left: auto;
+  top: 40px;
+  right: 30px;
 }
 
 .navbar h1 {
@@ -119,6 +128,21 @@ h1 {
 .main_line {
   border-left: 6px solid white;
   height: 600px;
+}
+
+.story {
+  color: white;
+  background-color: #4080FC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  padding-right: 180px;
+  padding-left: 180px;
+  font-size: 20px;
 }
 
 .collaborate {
