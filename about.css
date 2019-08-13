@@ -104,6 +104,7 @@ button:hover {
     flex-direction: row;
     padding: 0;
     padding-bottom:0px;
+    padding-right: 50px;
 }
 
 .main_landing img {
@@ -122,7 +123,7 @@ h1 {
 }
 
 .main_words {
-    padding-left: 20px;
+    padding-left: 50px;
     width: 400px;
 }
 
@@ -186,22 +187,22 @@ h1 {
 .collaborate_pics .coffee {
     width: 300px;
     padding: 40px;
+    padding-top: 80px;
 }
 
 .coffee img, .train img, .camera img {
-  width: 300px;
+  height: 400px;
 }
 
 .collaborate_pics .train {
     width: 300px;
     padding: 40px;
-    padding-top: 0px;
 }
 
 .collaborate_pics .camera {
     width: 300px;
     padding: 40px;
-    padding-top: 0px;
+    padding-top: 60px;
 }
 
 .collaborate_pics {
