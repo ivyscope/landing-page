@@ -52,6 +52,8 @@ a {
 
 .navbar a:hover {
   color: #4080FC;
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
 }
 
 nav {
