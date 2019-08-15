@@ -71,7 +71,7 @@ nav li a {
 
 nav li a:hover{
     color: #4080FC;
-    opacity: 0.5;
+    opacity: 0.8;
     transition-timing-function: linear;
     transition-duration: 0.5s;
 }
@@ -121,12 +121,19 @@ h1 {
   font-family: "Baloo";
 }
 
-.parascope img {
-  width: 150px;
-  padding-left: 60%;
+.parascope {
+   position: fixed;
+   bottom: 0px;
+   left: 60%;
+   height: 200px;
+   overflow: hidden;
 }
 
-.main_words button {
+.parascope img {
+  width: 150px;
+}
+
+.main_button {
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */

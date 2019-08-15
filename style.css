@@ -70,7 +70,7 @@ nav li a {
 
 nav li a:hover{
     color: #4080FC;
-    opacity: 0.5;
+    opacity: 0.8;
     transition-timing-function: linear;
     transition-duration: 0.5s;
 }
