@@ -50,7 +50,7 @@ a {
   color: white;
 }
 
-.navbar a:hover {
+.navbar li a:hover {
   opacity: 0.5;
   transition-timing-function: linear;
   transition-duration: 0.5s;
