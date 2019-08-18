@@ -232,14 +232,17 @@ h1 {
     padding: 160px;
     text-align: center;
     font-size: 20px;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
 .yeehaw h1 {
   color: white;
+  margin: 50px;
 }
 
 .yeehaw button {
-  margin: 40px;
+  margin: 50px;
   background-color: #4080FC;
   color: white;
   padding: 20px 32px;
