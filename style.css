@@ -178,7 +178,7 @@ h1 {
 
 .coffee_words h3, .train_words h3, .camera_words h3 {
     text-align: left;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .coffee_words p, .train_words p, .camera_words p {
@@ -186,7 +186,7 @@ h1 {
 }
 
 .camera img {
-  width: 550px;
+  width: 600px;
   height: auto;
 }
 
