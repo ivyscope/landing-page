@@ -34,7 +34,7 @@ a {
   box-shadow: 0 12px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   position: fixed;
   margin-left: auto;
-  top: 30px;
+  top: 20px;
   right: 30px;
 }
 
@@ -49,10 +49,14 @@ a {
   color: white;
 }
 
-.navbar a:hover {
+.navbar li a:hover {
   opacity: 0.5;
   transition-timing-function: linear;
   transition-duration: 0.5s;
+}
+
+.navbar button:hover {
+  opacity: 1;
 }
 
 nav {
