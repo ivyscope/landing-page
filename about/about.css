@@ -42,7 +42,7 @@ a {
     margin-right: auto;
     margin-left: 20px;
     color: white;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .navbar a {
@@ -50,7 +50,7 @@ a {
 }
 
 .navbar a:hover {
-  color: #4080FC;
+  opacity: 0.5;
   transition-timing-function: linear;
   transition-duration: 0.5s;
 }
@@ -71,8 +71,7 @@ nav li a {
 }
 
 nav li a:hover{
-    color: #4080FC;
-    opacity: 0.8;
+    opacity: 0.5;
     transition-timing-function: linear;
     transition-duration: 0.5s;
 }

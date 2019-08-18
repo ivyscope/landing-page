@@ -42,7 +42,7 @@ a {
     margin-right: auto;
     margin-left: 20px;
     color: white;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .navbar a {
@@ -50,7 +50,7 @@ a {
 }
 
 .navbar a:hover {
-  color: #4080FC;
+  opacity: 0.5;
   transition-timing-function: linear;
   transition-duration: 0.5s;
 }
@@ -71,8 +71,7 @@ nav li a {
 }
 
 nav li a:hover{
-    color: #4080FC;
-    opacity: 0.8;
+    opacity: 0.5;
     transition-timing-function: linear;
     transition-duration: 0.5s;
 }
@@ -100,7 +99,7 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 40px 100px 160px 100px;
+    padding: 40px 0px 160px 100px;
     margin-top: 0;
 }
 
@@ -119,13 +118,13 @@ h1 {
 
 .main_words h1 {
   margin: 0;
-  margin-top: 15px;
   padding: 0;
 }
 
 .main_words p {
+    margin-top: 30px;
     font-size: 20px;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .main_words button {
@@ -133,7 +132,7 @@ h1 {
 }
 
 .main_picture img {
-  width: 600px;
+  width: 700px;
   height: auto;
 }
 
