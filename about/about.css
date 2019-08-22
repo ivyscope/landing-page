@@ -118,7 +118,7 @@ button:hover {
 }
 
 .main_picture img {
-  margin-top: 210px;
+  margin-top: 209px;
   width: 950px;
   height: auto;
 }
@@ -145,6 +145,7 @@ h1 {
 .main_line {
   border-left: 6px solid white;
   height: 500px;
+  margin-bottom: 100px;
 }
 
 .story {
