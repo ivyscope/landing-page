@@ -266,6 +266,23 @@ h1 {
             animation: fadein 3s;
 }
 
+@media only screen and (max-width: 640px) {
+    .main_picture img {
+        width: 400px;
+        padding: 0;
+    }
+    .main_words {
+      padding: 0;
+      width: 100%;
+    }
+    .main_landing {
+      flex-direction: column;
+    }
+    .collaborate_pics {
+        flex-direction: column;
+    }
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -293,33 +310,4 @@ h1 {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-@media only screen and (max-width: 640px) {
-    .navbar {
-        display: none;
-    }
-    .main_landing img{
-        display: none;
-    }
-    .collaborate_pics {
-        flex-direction: column;
-    }
-    .hamburger{
-        background-color: black;
-        color: white;
-        opacity: 100;
-        height: 10px;
-        font-size: 20px;
-        padding: 10px;
-    }
-    .hamburger input {
-        opacity: 0;
-        height: 0px;
-    }
-    input[type=checkbox]:checked ~ div {
-        height: 50px;
-        background-color: red;
-        color: white;
-    }
 }
