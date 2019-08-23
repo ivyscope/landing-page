@@ -267,19 +267,119 @@ h1 {
 }
 
 @media only screen and (max-width: 640px) {
-    .main_picture img {
-        width: 400px;
-        padding: 0;
+    .navbar {
+      padding: 0;
+      padding-right: 100px;
     }
-    .main_words {
+    .navbar h1 {
+      margin-left: 5px;
+      font-size: 20px;
+    }
+    .navbar li {
+      font-size: 12px;
+      margin-right: 0;
+      padding-right: 20px;
+    }
+    .navbar button {
+      padding: 8px 16px;
+      font-size: 12px;
+      right: 10px;
+    }
+    .main_landing {
       padding: 0;
       width: 100%;
     }
+    .main_picture img {
+        width: 300px;
+        padding: 0;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .main_words {
+      padding: 0;
+      width: 80%;
+    }
+    .main_words h1 {
+      font-size: 30px;
+    }
+    .main_words p {
+      font-size: 16px;
+    }
     .main_landing {
-      flex-direction: column;
+      flex-direction: column-reverse;
+    }
+    .main_landing button {
+      margin-top: 30px;
+      margin-bottom: 80px;
+    }
+    .collaborate {
+      padding-top: 20px;
+    }
+    .collaborate_words h1 {
+      font-size: 30px;
     }
     .collaborate_pics {
         flex-direction: column;
+        padding: 0;
+    }
+    .collaborate_pics p {
+      font-size: 12px;
+    }
+    .collaborate_pics img {
+      width: 300px;
+    }
+    .coffee, .camera, .train {
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+    .coffee {
+      padding-top: 20px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .coffee_words h3, .camera_words h3, .train_words h3 {
+      margin: 0;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+    .coffee_words p, .camera_words p, .train_words p {
+      margin-top: 0;
+    }
+    .train {
+      flex-direction: column-reverse;
+    }
+    .coffee_words, .camera_words, .train_words {
+      width: 300px;
+      padding: 0;
+    }
+    .try {
+      padding: 20px;
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+    .try p {
+      margin: 0;
+      font-size: 16px;
+    }
+    .try_buttons {
+      flex-direction: column-reverse;
+      margin-top: 60px;
+    }
+    .try button {
+      margin: 10px;
+    }
+    .yeehaw {
+      padding: 40px;
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+    .yeehaw h1 {
+      font-size: 30px;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    .yeehaw p {
+      font-size: 16px;
     }
 }
 
