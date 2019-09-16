@@ -318,6 +318,7 @@ h1 {
         margin-bottom: 0;
     }
     .main_words {
+      margin-top: 20px;
       padding: 0;
       width: 80%;
       margin-bottom: 150px;
@@ -347,6 +348,7 @@ h1 {
     }
     .story_words {
       font-size: 16px;
+      text-align: center;
     }
     .collaborate {
       padding-top: 20px;
@@ -393,6 +395,17 @@ h1 {
     .coffee_words, .camera_words, .train_words {
       width: 300px;
       padding: 0;
+    }
+    .collaborate_pics .coffee {
+        width: 100%;
+    }
+
+    .collaborate_pics .train {
+        width: 100%;
+    }
+
+    .collaborate_pics .camera {
+        width: 100%;
     }
     .try {
       padding: 20px;

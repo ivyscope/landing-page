@@ -146,6 +146,33 @@ h1 {
             animation: fadein 3s;
 }
 
+@media only screen and (max-width: 640px) {
+    .navbar {
+      padding: 0;
+      padding-right: 100px;
+    }
+    .navbar h1 {
+      margin-left: 5px;
+      font-size: 20px;
+    }
+    .navbar li {
+      font-size: 12px;
+      margin-right: 0;
+      padding-right: 20px;
+    }
+    .navbar button {
+      padding: 8px 16px;
+      font-size: 12px;
+      right: 10px;
+    }
+    .main_landing {
+      margin-top: 80px;
+      padding: 0;
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -173,33 +200,4 @@ h1 {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-@media only screen and (max-width: 640px) {
-    .navbar {
-        display: none;
-    }
-    .main_landing img{
-        display: none;
-    }
-    .collaborate_pics {
-        flex-direction: column;
-    }
-    .hamburger{
-        background-color: black;
-        color: white;
-        opacity: 100;
-        height: 10px;
-        font-size: 20px;
-        padding: 10px;
-    }
-    .hamburger input {
-        opacity: 0;
-        height: 0px;
-    }
-    input[type=checkbox]:checked ~ div {
-        height: 50px;
-        background-color: red;
-        color: white;
-    }
 }
