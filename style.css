@@ -354,8 +354,8 @@ h1 {
     }
     .try {
       padding: 20px;
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 180px;
+      padding-bottom: 180px;
     }
     .try p {
       margin: 0;
@@ -370,8 +370,8 @@ h1 {
     }
     .yeehaw {
       padding: 40px;
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 180px;
+      padding-bottom: 180px;
     }
     .yeehaw h1 {
       font-size: 30px;
