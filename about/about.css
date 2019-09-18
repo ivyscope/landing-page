@@ -289,7 +289,7 @@ h1 {
     }
     .navbar h1 {
       margin-left: 5px;
-      font-size: 20px;
+      font-size: 16px;
     }
     .navbar li {
       font-size: 12px;
@@ -343,15 +343,20 @@ h1 {
       border-bottom: 3px solid white;
       margin-bottom: 0;
     }
+    .story {
+      padding-top: 160px;
+      padding-bottom: 160px;
+    }
     .story_title {
       font-size: 30px;
     }
     .story_words {
       font-size: 16px;
-      text-align: center;
+      text-align: left;
     }
     .collaborate {
-      padding-top: 20px;
+      padding-top: 80px;
+      padding-bottom: 80px;
       width: 100%;
     }
     .collaborate_words h1 {
@@ -366,6 +371,7 @@ h1 {
       font-size: 12px;
       padding-right: 60px;
       padding-left: 60px;
+      text-align: left;
     }
     .collaborate_pics img {
       width: 300px;
@@ -409,8 +415,8 @@ h1 {
     }
     .try {
       padding: 20px;
-      padding-top: 120px;
-      padding-bottom: 120px;
+      padding-top: 160px;
+      padding-bottom: 160px;
       flex-direction: column;
     }
     .try p {
@@ -423,26 +429,6 @@ h1 {
     }
     .try_line {
       display: none;
-    }
-    .try_buttons {
-      flex-direction: column-reverse;
-      margin-top: 60px;
-    }
-    .try button {
-      margin: 10px;
-    }
-    .yeehaw {
-      padding: 40px;
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
-    .yeehaw h1 {
-      font-size: 30px;
-      margin: 0;
-      margin-bottom: 30px;
-    }
-    .yeehaw p {
-      font-size: 16px;
     }
 }
 
