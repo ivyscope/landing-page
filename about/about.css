@@ -379,11 +379,11 @@ h1 {
     .coffee, .camera, .train {
       width: 100%;
       flex-direction: column;
-      padding-bottom: 30px;
+      padding-bottom: 90px;
     }
     .collaborate_pics .train {
       padding: 0;
-      padding-bottom: 30px;
+      padding-bottom: 90px;
     }
     .coffee {
       padding-top: 20px;
