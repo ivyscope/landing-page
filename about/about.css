@@ -428,6 +428,7 @@ h1 {
     .try p {
       margin: 0;
       font-size: 16px;
+      text-align: center;
     }
     .try_left {
       margin-bottom: 26.8px;
