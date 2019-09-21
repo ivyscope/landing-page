@@ -281,6 +281,12 @@ h1 {
             animation: fadein 3s;
 }
 
+@media only screen and (max-width: 1110px) {
+  .main_picture img {
+    margin-top: 211px;
+  }
+}
+
 
 @media only screen and (max-width: 640px) {
     .navbar {
@@ -309,7 +315,6 @@ h1 {
     .main_picture {
       padding-bottom: 0;
       margin-bottom: 0;
-      overflow: hidden;
     }
     .main_picture img {
         width: 100%;
@@ -337,11 +342,12 @@ h1 {
       height: auto;
     }
     .main_line {
-      border-left: 0;
+      display: none;
+      /* border-left: 0;
       height: 0;
       width: 70%;
       border-bottom: 3px solid white;
-      margin-bottom: 0;
+      margin-bottom: 0; */
     }
     .story {
       padding-top: 160px;
