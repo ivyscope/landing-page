@@ -232,7 +232,7 @@ h1 {
     flex-direction: row;
     padding-top: 150px;
     padding-bottom: 150px;
-    padding-left:  30px;
+    padding-left:  20px;
     padding-right: 30px;
     color: white;
     background-color: #4080FC;
@@ -246,7 +246,7 @@ h1 {
 
 .try_left {
   text-align: center;
-  width: 800px;
+  width: 700px;
 }
 
 .try_left p {
@@ -352,6 +352,8 @@ h1 {
     .story {
       padding-top: 160px;
       padding-bottom: 160px;
+      padding-right: 50px;
+      padding-left: 50px;
     }
     .story_title {
       font-size: 30px;
