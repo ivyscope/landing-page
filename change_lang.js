@@ -91,3 +91,5 @@ function updateLang(target_lang=null){
     }
     sessionStorage.setItem('lang',target_lang)
 }
+
+updateLang();
