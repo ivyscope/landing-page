@@ -12,9 +12,20 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Baloo">
-        <script src="//d.bablic.com/snippet/5d957a9b78ac760001ddfa7d.js?version=3.9"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
     </head>
     <body>
+        <div class="lang-dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Language/语言
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a id="change_en">English</a></li>
+              <li><a id="change_ch">中文</a></li>
+            </ul>
+        </div>
         <div class="navbar">
             <h1><a href="https://ivyscope.io">ivyscope</a></h1>
             <nav>
@@ -97,5 +108,7 @@
             <p>Tell us your thoughts on IvyScope, so we can make college visits even more awesome!</p>
             <a target="_blank" rel="noopener noreferrer" href="https://dartmouth.co1.qualtrics.com/jfe/form/SV_0UQ1KyGjtn21YZD"><button type="button">Take Our Survey</button></a>
         </div>
+
+        <script src="change_lang.js"></script>
     </body>
 </html>

@@ -15,6 +15,17 @@ a {
     color: lightblue;
 }
 
+.lang-dropdown{
+  position: fixed;
+  z-index: 10;
+  margin-left: 150px;
+  
+}
+.lang-dropdown>button{
+  background-color: #01AEDA;
+  border-width:0 ;
+}
+
 .hamburger, .menu, .menu ul {
     background-color: #9BE5B4;
     margin: 0px;
@@ -29,6 +40,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     padding-right: 150px;
+    margin: 0 !important;
 }
 
 .navbar button {
