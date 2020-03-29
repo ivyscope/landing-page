@@ -54,34 +54,40 @@ let en_ch =
 
 let ch_en = swap(en_ch)
 
-let lang = "en";
-document.getElementById("change_ch").addEventListener("click", function(){
 
-    if(lang != "ch"){
-        let elems = document.getElementsByTagName("*");
-        for (let i=0, max=elems.length; i < max; i++) {
-            text = elems[i].textContent
-            n_children = elems[i].children.length
-            if(n_children == 0 && text in en_ch){
-                elems[i].textContent = en_ch[text]
-            }
-              
-        }
-        lang = "ch"
-    }
-    
+document.getElementById("change_ch").addEventListener("click", function(){
+    updateLang("ch");
 });
 
 document.getElementById("change_en").addEventListener("click", function(){
-    if(lang != "en"){
-        let elems = document.getElementsByTagName("*");
-        for (let i=0, max=elems.length; i < max; i++) {
-            text = elems[i].textContent
-            n_children = elems[i].children.length
-            if(n_children == 0 && text in ch_en){
-                elems[i].textContent = ch_en[text]
-            }
-        }
-        lang = "en"
-    }
+    updateLang("en");
 });
+
+function updateLang(target_lang=null){
+    let lang = sessionStorage.getItem('lang');
+    console.log(lang)
+    if(lang === null){
+        sessionStorage.setItem('lang','en');
+        lang = 'en';
+    };
+
+    if(target_lang === null){
+        target_lang = lang
+    }
+    let mapping = null;
+    if(target_lang === "en"){
+        mapping = ch_en;
+    }else if(target_lang == "ch"){
+        mapping = en_ch;
+    }
+    let elems = document.getElementsByTagName("*");
+    for (let i=0, max=elems.length; i < max; i++) {
+        text = elems[i].textContent
+        n_children = elems[i].children.length
+        if(n_children === 0 && text in mapping){
+            elems[i].textContent = mapping[text]
+        }
+            
+    }
+    sessionStorage.setItem('lang',target_lang)
+}
