@@ -45,6 +45,7 @@ a {
     align-items: center;
     padding-right: 150px;
     margin: 0;
+    border-radius: 0;
 }
 
 .navbar button {
