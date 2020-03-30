@@ -17,8 +17,9 @@ a {
 
 .lang-dropdown{
   position: fixed;
+  right:30px;
+  bottom:10px;
   z-index: 10;
-  margin-left: 150px;
   
 }
 .lang-dropdown>button{
@@ -26,6 +27,9 @@ a {
   border-width:0 ;
 }
 
+.dropdown-menu{
+  min-width: 128px;
+}
 .hamburger, .menu, .menu ul {
     background-color: #9BE5B4;
     margin: 0px;
@@ -40,7 +44,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     padding-right: 150px;
-    margin: 0 !important;
+    margin: 0;
 }
 
 .navbar button {
@@ -159,6 +163,9 @@ h1 {
 }
 
 @media only screen and (max-width: 640px) {
+    .lang-dropdown {
+      right: 10px;
+    }
     .navbar {
       padding: 0;
       padding-right: 100px;
