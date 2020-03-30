@@ -15,6 +15,11 @@ a {
     color: lightblue;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+
 .lang-dropdown{
   position: fixed;
   right:30px;
