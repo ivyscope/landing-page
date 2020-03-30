@@ -14,26 +14,6 @@ a {
     color: lightblue;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-
-.lang-dropdown{
-  position: fixed;
-  right:30px;
-  bottom:10px;
-  z-index: 10;
-  
-}
-.lang-dropdown>button{
-  background-color: #01AEDA;
-  border-width:0 ;
-}
-
-.dropdown-menu{
-  min-width: 128px;
-}
 
 .hamburger, .menu, .menu ul {
     background-color: #9BE5B4;
@@ -49,8 +29,6 @@ a:hover {
     justify-content: flex-end;
     align-items: center;
     padding-right: 150px;
-    margin: 0;
-    border-radius: 0;
 }
 
 .navbar button {
@@ -302,6 +280,56 @@ h1 {
         -ms-animation: fadein 3s; /* Internet Explorer */
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s;
+}
+
+
+.lang-dropdown{
+  position: fixed;
+  right:30px;
+  bottom:15px;
+  z-index: 10;
+  
+}
+.lang-dropdown>button{
+  background-color: #01AEDA;
+}
+
+.dropbtn {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color: white;
+  padding: 16px;
+  font-size: 12px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  bottom: 48px;
+  background-color: #f9f9f9;
+  min-width: 118px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #4080FC;
 }
 
 @media only screen and (max-width: 1110px) {
