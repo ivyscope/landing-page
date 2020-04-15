@@ -16,7 +16,7 @@ let en_ch =
     "1-on-1":"一对一",
     "Immersive":"身临其境",
     "College Tours":"大学生活体验",
-    "Helping students apply to the right colleges, not the most colleges":"大学在校生带领高中生提前体验大学生活，为选校申校打开新模式了解更多",
+    "Helping students apply to the right colleges, not the most colleges":"大学在校生带领高中生提前体验大学生活，为选校申校打开新模式",
     "Learn More":"了解更多",
     "How It Works":"怎样参观大学才算身临其境",
     "Search":"搜索志趣相投的领路人",
