@@ -17,11 +17,13 @@ a {
 
 .top_banner{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 100px;
   background-color: #4E82F4;
   color: white;
+  padding: 0 20px;
 }
 
 .top_banner__title{
@@ -54,7 +56,7 @@ a {
   box-shadow: 0 12px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   position: fixed;
   margin-left: auto;
-  top: 70px;
+  top: 120px;
   right: 30px;
 }
 
@@ -337,6 +339,10 @@ h1 {
 
 
 @media only screen and (max-width: 640px) {
+    .top_banner{
+      height: 150px;
+      font-size: 12px;
+    }
     .lang-dropdown {
       right: 10px;
     }
@@ -357,6 +363,7 @@ h1 {
       padding: 8px 16px;
       font-size: 12px;
       right: 10px;
+      top:165px;
     }
     .main_landing {
       padding: 0;

@@ -49,7 +49,8 @@ let en_ch =
     "Cat is a software engineer intern at Google on their engineering education team and a senior at Dartmouth College majoring in computer science. She is interested in using her background in technology, design, and business to inspire more students to pursue higher education.":"凯特（Catherine）是谷歌工程教育团队的软件工程师实习生，也是达特茅斯学院计算机科学专业的大四学生。她想利用自己对科技、设计和商业的热情，去激励更多的学生选择高等教育。",
     "Contact Us":"联系我们",
     "We would love to hear what you think about our project.":"我们很想听听您对我们项目的看法。",
-    "Shoot us an email!":"随时电邮我们！"
+    "Shoot us an email!":"随时电邮我们！",
+    "IvyScope is facilitating Zoom chats between high schoolers and undergrads, so high schoolers can have firsthand info on different colleges and choose the college education that fits":"疫情期间，领路人会在线上匹配高中生和本科生进行Zoom交谈，帮助高中生了解不同大学并最终选择一所适合自己的学校"
 }
 
 let ch_en = swap(en_ch)
