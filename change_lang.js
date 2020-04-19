@@ -50,7 +50,7 @@ let en_ch =
     "Contact Us":"联系我们",
     "We would love to hear what you think about our project.":"我们很想听听您对我们项目的看法。",
     "Shoot us an email!":"随时电邮我们！",
-    "IvyScope is facilitating Zoom chats between high schoolers and undergrads, so high schoolers can have firsthand info on different colleges and choose the college education that fits":"疫情期间，领路人会在线上匹配高中生和本科生进行Zoom交谈，帮助高中生了解不同大学并最终选择一所适合自己的学校"
+    "IvyScope is facilitating Zoom chats between high schoolers and undergrads, so high schoolers can have firsthand info on different colleges and choose the college education that fits.":"疫情期间，领路人会在线上匹配高中生和本科生进行Zoom交谈，帮助高中生了解不同大学并最终选择一所适合自己的学校。"
 }
 
 let ch_en = swap(en_ch)
