@@ -15,6 +15,22 @@ a {
 }
 
 
+.top_banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #4E82F4;
+  color: white;
+}
+
+.top_banner__title{
+  color:#9BE5B4;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 
 .hamburger, .menu, .menu ul {
     background-color: #9BE5B4;
@@ -38,7 +54,7 @@ a {
   box-shadow: 0 12px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   position: fixed;
   margin-left: auto;
-  top: 20px;
+  top: 70px;
   right: 30px;
 }
 
