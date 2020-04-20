@@ -1,5 +1,4 @@
-
-
+// Functions for language change 
 
 function swap(json){
     var ret = {};
@@ -52,7 +51,7 @@ let en_ch =
     "Contact Us":"联系我们",
     "We would love to hear what you think about our project.":"我们很想听听您对我们项目的看法。",
     "Shoot us an email!":"随时电邮我们！",
-    "IvyScope and COVID-19": "领路人 与 COVID-19",
+    "IvyScope and COVID-19": "疫情公告",
     "IvyScope is facilitating Zoom chats between high schoolers and undergrads, so high schoolers can have firsthand info on different colleges and choose the college education that fits.":"疫情期间，领路人会在线上匹配高中生和本科生进行Zoom交谈，帮助高中生了解不同大学并最终选择一所适合自己的学校。"
 }
 
@@ -112,3 +111,38 @@ function toggleDropdownContent(){
 }
 let dropbtn = document.getElementsByClassName('dropbtn')[0];
 dropbtn.addEventListener('click', toggleDropdownContent);
+
+
+// Functions for banner button
+
+function closeBanner(){
+    console.log('closed')
+    sessionStorage.setItem('bannerOff', 'true');
+    setBannerState();
+}
+
+function setBannerState(){
+    let banner = document.getElementsByClassName('top_banner')[0];
+    let signUpButton = document.getElementsByClassName('signup_button')[0];
+    let bannerOff = sessionStorage.getItem('bannerOff');
+    let mq = window.matchMedia( "(max-width: 640px)" );
+    
+    if(bannerOff === 'true'){
+        banner.style.setProperty('display', 'none');
+        if (mq.matches) {
+            signUpButton.style.setProperty('top', '12px')
+        }
+        else {
+            signUpButton.style.setProperty('top', '20px')
+        }
+       
+    }
+}
+
+let bannerCloseBtn = document.getElementsByClassName('top_banner__close')[0];
+bannerCloseBtn.addEventListener('click', closeBanner);
+
+let x = window.matchMedia("(max-width: 640px)")
+x.addListener(setBannerState) 
+
+setBannerState();

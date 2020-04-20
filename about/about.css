@@ -20,10 +20,10 @@ a {
   justify-content: center;
   align-items: center;
   height: 100px;
-  padding: 0 20px;
+  padding: 0 30px;
   background-color: #4E82F4;
   color: white;
-  
+
 }
 
 .top_banner__title{
@@ -31,6 +31,20 @@ a {
   font-size: 18px;
   font-weight: bold;
   margin-right: 5px;
+}
+
+.top_banner__close{
+  position: absolute;
+  top:5px;
+  right:5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  user-select: none;
 }
 
 
