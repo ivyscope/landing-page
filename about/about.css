@@ -312,11 +312,9 @@ h1 {
   z-index: 10;
   
 }
-.lang-dropdown>button{
-  background-color: #01AEDA;
-}
 
-.dropbtn {
+.lang-dropdown>button {
+  background-color: #01AEDA;
   box-shadow: 0 12px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   color: white;
   padding: 16px;
@@ -395,6 +393,9 @@ h1 {
       padding: 8px 16px;
       font-size: 12px;
    
+    }
+    .dropdown-content{
+      bottom: 30px;
     }
     .main_landing {
       padding: 0;
