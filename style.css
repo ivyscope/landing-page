@@ -343,9 +343,7 @@ h1 {
       height: 150px;
       font-size: 12px;
     }
-    .lang-dropdown {
-      right: 10px;
-    }
+   
     .navbar {
       padding: 0;
       padding-right: 100px;
@@ -364,6 +362,16 @@ h1 {
       font-size: 12px;
       right: 10px;
       top:165px;
+    }
+
+    .lang-dropdown {
+      right: 10px;
+    }
+
+    .lang-dropdown button {
+      padding: 8px 16px;
+      font-size: 12px;
+   
     }
     .main_landing {
       padding: 0;
