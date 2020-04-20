@@ -1,4 +1,6 @@
 
+
+
 function swap(json){
     var ret = {};
     for(var key in json){
@@ -59,10 +61,12 @@ let ch_en = swap(en_ch)
 
 document.getElementById("change_ch").addEventListener("click", function(){
     updateLang("ch");
+    toggleDropdownContent()
 });
 
 document.getElementById("change_en").addEventListener("click", function(){
     updateLang("en");
+    toggleDropdownContent()
 });
 
 function updateLang(target_lang=null){
@@ -95,3 +99,16 @@ function updateLang(target_lang=null){
 }
 
 updateLang();
+
+
+function toggleDropdownContent(){
+    let dropdownContent = document.getElementsByClassName('dropdown-content')[0];
+    if(getComputedStyle(dropdownContent).getPropertyValue('display') === "none"){
+        dropdownContent.style.setProperty('display','block')
+    }else{
+        dropdownContent.style.setProperty('display','none')
+    }
+    console.log();
+}
+let dropbtn = document.getElementsByClassName('dropbtn')[0];
+dropbtn.addEventListener('click', toggleDropdownContent);
