@@ -33,6 +33,23 @@ a {
   margin-right: 5px;
 }
 
+.top_banner__links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.top_banner__links button{
+  height: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #01AEDA;
+  margin: 3px 3px;
+}
+
 .top_banner__close{
   position: absolute;
   top:5px;
@@ -374,6 +391,15 @@ h1 {
     .top_banner{
       height: 150px;
       font-size: 12px;
+    }
+
+    .top_banner__links button{
+      height: 20px;
+      display: flex;
+      align-items: center;
+      background-color: #01AEDA;
+      font-size: 12px;
+      margin: 2px 2px;
     }
 
     .navbar {
