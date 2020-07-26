@@ -45,8 +45,7 @@ a {
 
 .top_banner__links button{
   height: 20px;
-  display: flex;
-  align-items: center;
+  line-height: 0px;
   background-color: #01AEDA;
   margin: 3px 3px;
 }
@@ -370,10 +369,6 @@ h1 {
     }
 
     .top_banner__links button{
-      height: 20px;
-      display: flex;
-      align-items: center;
-      background-color: #01AEDA;
       font-size: 12px;
       margin: 2px 2px;
     }
