@@ -74,7 +74,7 @@ let en_ch = {
     "希伦是伊利诺伊州香槟大学计算机专业的一名学生，也是Jump Trading的UI组的一名实习生。希伦热衷于研究各种新出现的技术，并一直尝试着用他的程序向用户提供最好的体验。他希望能将领路人打造成一个每位学生都喜欢使用的平台。",
   Jin: "金皓",
   "Jin is a junior studying finance at Baruch College and a law school aspirant. With previous experience on the operations team of Ascend Charter schools, he wishes to provide new opportunities and gateways for high school students.":
-    "金皓在纽约巴鲁克大学主修金融，同时也在追求法学院。他希望利用在Ascend特许学校操作的经验来带更多的机遇供给高中生。",
+    "金皓在纽约市立大学主修金融。他之前在Ascend Charter School有运营经验，未来希望投入到解决高中生申请大学时信息不对称的问题，用技术为更多学生提供普惠的教育机会。",
 };
 
 let ch_en = swap(en_ch);
